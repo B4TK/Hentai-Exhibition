@@ -115,15 +115,30 @@ html{
 	width: 100%;
 	text-align: center;
 	font-size: 10px;
+	margin-bottom: 25px;
 }
 
 #concept h2{
+	position: relative;
 	margin: 0 auto;
 	width: 70vw;
+	margin-bottom: 25px;
 }
 
 #concept h2 img{
-	width: 100%;
+	height: 5vh;
+	display: block;
+	margin: 0 auto;
+}
+
+#concept h2 .bg1{
+	background: url("../images/conBG.png") no-repeat;
+	background-size: contain;
+	height: 14vh;
+	width: 14vh;
+	position: absolute;
+	left: -2vh;
+	top: -8vh;
 }
 
 #concept p{
@@ -233,14 +248,19 @@ html{
 	width: 100%;
 	text-align: center;
 	font-size: 10px;
+	margin-bottom: 25px;
 }
 
 #gallery h2{
-	width: 70vw;
 	margin: 0 auto;
+	width: 70vw;
+	margin-bottom: 25px;
 }
+
 #gallery h2 img{
-	width: 100%;
+	height: 5vh;
+	display: block;
+	margin: 0 auto;
 }
 
 /*------------- swiper config  -------------*/
@@ -318,15 +338,21 @@ html{
 	width: 100%;
 	text-align: center;
 	font-size: 10px;
+	margin-bottom: 25px;
 }
 
 #offShot h2{
+	margin: 0 auto;
 	width: 70vw;
+	margin-bottom: 25px;
+}
+
+#offShot h2 img{
+	height: 5vh;
+	display: block;
 	margin: 0 auto;
 }
-#offShot h2 img{
-	width: 100%;
-}
+
 
 #offShot p img{
 	width: 100%;
