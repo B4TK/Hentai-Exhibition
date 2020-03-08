@@ -41,12 +41,6 @@ var swiper = new Swiper('.swiper-container', {
 
 
 $(function(){
- 
-  $('a.boxer').boxer();
-});
-
-
-$(function(){
     $(window).scroll(function (){
         $('.fadeIn').each(function(){
             var targetElement = $(this).offset().top;
@@ -70,4 +64,5 @@ $('a[href^="#"]').click(function() {
    $('body,html').animate({scrollTop:position}, speed, 'swing');
    return false;
 });
+
 
